@@ -19,12 +19,11 @@ module.exports = {
     'plugin:jest/recommended',
     'prettier',
   ],
-  plugins: ['react', 'react-hooks', "jsx-expressions"],
+  plugins: ['react', 'react-hooks'],
   rules: {
     'no-var': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'jsx-expressions/strict-logical-expressions': 'error'
   },
   settings: {
     react: {
